@@ -1,22 +1,27 @@
 # useful-robot-links
 List of links I've found useful while exploring robotics and ROS
 
-- ROS Packages (#ros-packages)
-  - ROS1 Communications (#ros1-communications)
-  - Actions (#actions)
-  - Autonomous Marine Vehicles (#autonomous-marine-vehicles)
-- ROS2 (#ros2)
-  - Starting Out (#starting-out)
-  - Communications (#communications)
-- Simulation (#simulation)
-- Hardware (#hardware)
-  - Controllers (#controllers)
-- Real Time Systems (#real-time-systems)
-- General Robotics Topics (#general-robotics-topics)
-  - SLAM (#slam)
-  - Communications and Networking (#communications-and-networking)
-- Reinforcement Learning (#reinforcement-learning)
-- Stores (#stores)
+- [ROS Packages](#ros-packages)
+  - [ROS1 Communications](#ros1-communications)
+  - [Actions](#actions)
+  - [Autonomous Marine Vehicles](#autonomous-marine-vehicles)
+  - [Enhancements](#enhancements)
+- [ROS2](#ros2)
+  - [Starting Out](#starting-out)
+  - [Communications](#communications)
+- [Simulation](#simulation)
+  - [Simulation Engines](#simulation-engines)
+  - [Physics Engines](#physics-engines)
+- [Hardware](#hardware)
+  - [Controllers](#controllers)
+- [General Robotics Topics](#general-robotics-topics)
+  - [SLAM](#slam)
+  - [Control Systems](#control-systems)
+- [Real Time Systems](#real-time-systems)
+  - [Communications and Networking](#communications-and-networking)
+- [Reinforcement Learning](#reinforcement-learning)
+- [Stores](#stores)
+- [Maker](#maker)
 
 # ROS Packages
 
@@ -46,7 +51,7 @@ List of links I've found useful while exploring robotics and ROS
 # Simulation
 
 ## Simulation Engines
-* [Gazebo](
+* [Gazebo](http://gazebosim.org/) - Robotics simulation environment for ROS
 
 ## Physics Engines
 * [MuJoCo](http://www.mujoco.org/) - Multi-Joint dynamics with Contact, commercial license physics engine, built specifically to facilitate research and development in robotics.
