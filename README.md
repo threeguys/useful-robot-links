@@ -4,7 +4,7 @@ List of links I've found useful while exploring robotics and ROS
 - [ROS Packages](#ros-packages)
   - [ROS1 Communications](#ros1-communications)
   - [Actions](#actions)
-  - [Autonomous Marine Vehicles](#autonomous-marine-vehicles)
+  - [Autonomous Vehicles](#autonomous-vehicles)
   - [Enhancements](#enhancements)
 - [ROS2](#ros2)
   - [Starting Out](#starting-out)
@@ -30,13 +30,14 @@ List of links I've found useful while exploring robotics and ROS
 * [RosBridge](http://wiki.ros.org/rosbridge_suite) - 
 
 ## Actions
-* ActionLib - http://wiki.ros.org/actionlib
+* [ActionLib](http://wiki.ros.org/actionlib) - Standardized interface for creating preemptable tasks
 
-## Autonomous Marine Vehicles
-* [MOOS-IvP](http://oceanai.mit.edu/moos-ivp/pmwiki/pmwiki.php?n=Main.HomePage) - Set of open source C++ modules for providing autonomy on robotic platforms, in particular autonomous marine vehicles.
+## Autonomous Vehicles
+* [MOOS-IvP](http://oceanai.mit.edu/moos-ivp/pmwiki/pmwiki.php?n=Main.HomePage) - Set of open source C++ modules for providing autonomy on robotic platforms, in particular autonomous marine vehicles
+* [PX4 Autopilot User Guide](https://docs.px4.io/en/) - PX4 is the Professional Autopilot, an autopiloting system for all kinds of vehicles from racing to cargo drones through ground vehicles to submersible vehicles.
 
 ## Enhancements
-* [ROS Enhancement Proposals (REPs)](http://www.ros.org/reps/rep-0000.html) - All public REPs for ROS since 2010.
+* [ROS Enhancement Proposals (REPs)](http://www.ros.org/reps/rep-0000.html) - All public REPs for ROS since 2010
 
 # ROS2
 
@@ -44,9 +45,10 @@ List of links I've found useful while exploring robotics and ROS
 * [ROS2 Onboarding Guide](https://github.com/ros2/ros2/wiki/ROS-2-On-boarding-Guide) - On-boarding guide for contributing to ROS 2.0
 * [ROS2 Project Board](https://waffle.io/ros2/ros2) - Issues board for ROS 2.0 development
 * [ROS2 Package List](https://github.com/ros2/ros2/blob/master/ros2.repos) - Current list of all packages included in ROS 2.0
+* [Core Stack Developer Overview](http://docs.ros2.org/ardent/developer_overview.html) - Overview of the main internal core componets of ROS 2.0
 
 ## Communications
-* [ZeroMQ/ROS](https://design.ros2.org/articles/ros_with_zeromq.html) - Design article on an attempt to integrate ZeroMQ into ROS 2.0.
+* [ZeroMQ/ROS](https://design.ros2.org/articles/ros_with_zeromq.html) - Design article on an attempt to integrate ZeroMQ into ROS 2.0
 
 # Simulation
 
@@ -55,9 +57,9 @@ List of links I've found useful while exploring robotics and ROS
 
 ## Physics Engines
 * [MuJoCo](http://www.mujoco.org/) - Multi-Joint dynamics with Contact, commercial license physics engine, built specifically to facilitate research and development in robotics.
-* [Open Dynamics Engine (ODE)](http://www.ode.org/) - An open source, high performance library for simulation rigid body dynamics.
-* [Dynamic Animation and Robotics Toolkit (DART)](https://dartsim.github.io/) - A collaborative, cross-platform, open source library providing data structures and algorithms for kinematic and dynamic applications in robotics and computer animation.
-* [Bullet Physics Engine](https://github.com/bulletphysics/bullet3) - Real-time collision detection and multi-physics simulation.
+* [Open Dynamics Engine (ODE)](http://www.ode.org/) - An open source, high performance library for simulation rigid body dynamics
+* [Dynamic Animation and Robotics Toolkit (DART)](https://dartsim.github.io/) - A collaborative, cross-platform, open source library providing data structures and algorithms for kinematic and dynamic applications in robotics and computer animation
+* [Bullet Physics Engine](https://github.com/bulletphysics/bullet3) - Real-time collision detection and multi-physics simulation
 
 # Hardware
 
@@ -67,10 +69,10 @@ List of links I've found useful while exploring robotics and ROS
 # General Robotics Topics
 
 ## SLAM
-* [Simultaneous Location and Mapping (SLAM)](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) - Wikipedia entry on SLAM, an important problem in robotics.
+* [Simultaneous Location and Mapping (SLAM)](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) - Wikipedia entry on SLAM, an important problem in robotics
 
 ## Control Systems
-* [PID Controller](https://en.wikipedia.org/wiki/PID_controller) - Wikipedia entry on Proportional-Integral-Derivative controller, a control loop feedback mechanism used in mechanical and electrical control systems.
+* [PID Controller](https://en.wikipedia.org/wiki/PID_controller) - Wikipedia entry on Proportional-Integral-Derivative controller, a control loop feedback mechanism used in mechanical and electrical control systems
 
 # Real Time Systems
 
@@ -81,17 +83,21 @@ List of links I've found useful while exploring robotics and ROS
     * [SDO/Service Data Object](https://www.can-cia.org/can-knowledge/canopen/sdo-protocol/)
     * [CAN-FD/Flexible Data Rate](https://www.can-cia.org/can-knowledge/can/can-fd/)
     * [PMS/Physical Media-dependent Sublayers]
+  * [UAVCAN](http://uavcan.org/) - Lightweight protocol for reliable communication in aerospace and robotic applications
 * [Orocos/RTT](http://www.orocos.org/rtt) - Real Time Toolkit, a library for RTOS
 * [Pragmatic General Multicast (PGM)](https://en.wikipedia.org/wiki/Pragmatic_General_Multicast)
+* [OPC Unified Architecture](https://en.wikipedia.org/wiki/OPC_Unified_Architecture) - Wikipedia entry on machine-to-machine communication protocol for industrial automation
 
 # Reinforcement Learning
-* [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment) - Atari 2600 game emulator, together with a framework for developing AI agents.
-* [OpenAI Gym](https://github.com/openai/gym) - Toolkit for developing and comparing reinforcement learning algorithms.
+* [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment) - Atari 2600 game emulator, together with a framework for developing AI agents
+* [OpenAI Gym](https://github.com/openai/gym) - Toolkit for developing and comparing reinforcement learning algorithms
   * [Ingredients for Robotics Research](https://blog.openai.com/ingredients-for-robotics-research/) - Gym environments specific to robotics
 
 # Stores
 * [Karlsson Robotics](https://www.kr4.us/)
-* [Online Metals](http://www.onlinemetals.com/) - Pre-cut and custom cut metals of many different types, shapes, and sizes.
+* [Online Metals](http://www.onlinemetals.com/) - Pre-cut and custom cut metals of many different types, shapes, and sizes
+* [DFRobot](https://www.dfrobot.com)
+* [Arrow](https://www.arrow.com)
 
 # Maker
 * [Maker Pro](https://maker.pro/) - Lots of articles on building things using Arduino and Raspberry Pi
