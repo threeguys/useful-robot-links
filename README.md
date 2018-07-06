@@ -65,6 +65,10 @@ List of links I've found useful while exploring robotics and ROS
 
 ## Controllers
 * [OpenCR](http://support.robotis.com/en/product/controller/opencr.htm) - Open Controller for ROS
+* [ST](https://www.st.com/content/st_com/en.html) - Maker of semiconductors, lots of products related to many industries
+  * [Power Management](https://www.st.com/en/power-management.html)
+  * [Motor Drivers](https://www.st.com/en/motor-drivers.html)
+  * [Microcontrollers](https://www.st.com/en/microcontrollers.html)
 
 # General Robotics Topics
 
