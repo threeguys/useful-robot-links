@@ -7,6 +7,7 @@ List of links I've found useful while exploring robotics and ROS
   - [Actions](#actions)
   - [Autonomous Vehicles](#autonomous-vehicles)
   - [Enhancements](#enhancements)
+  - [Robot Examples](#robot-examples)
 - [ROS2](#ros2)
   - [Starting Out](#starting-out)
   - [Raspberry Pi](#raspberry-pi)
@@ -17,6 +18,10 @@ List of links I've found useful while exploring robotics and ROS
 - [Hardware](#hardware)
   - [Controllers](#controllers)
 - [General Robotics Topics](#general-robotics-topics)
+  - [Robotics Software](#robotics-software)
+  - [Middleware](#middleware)
+  - [Kinematics](#kinematics)
+  - [Computer Vision](#computer-vision)
   - [SLAM](#slam)
   - [Control Systems](#control-systems)
 - [Real Time Systems](#real-time-systems)
@@ -41,9 +46,14 @@ List of links I've found useful while exploring robotics and ROS
 * [MOOS-IvP](http://oceanai.mit.edu/moos-ivp/pmwiki/pmwiki.php?n=Main.HomePage) - Set of open source C++ modules for providing autonomy on robotic platforms, in particular autonomous marine vehicles
 * [PX4 Autopilot User Guide](https://docs.px4.io/en/) - PX4 is the Professional Autopilot, an autopiloting system for all kinds of vehicles from racing to cargo drones through ground vehicles to submersible vehicles.
 * [Light Autonomous Underwater Vehicle (LAUV) model for Gazebo](https://github.com/uuvsimulator/lauv_gazebo) - Robot description and necessary launch files to simulate the Light Autonomous Underwater Vehicle (LAUV), developed by the Laboratório de Sistemas e Tecnologia Subaquática (LSTS) from Porto University and OceanScan-MST.
+* [Detect and AvoID Alerting Logic for Unmanned Systems](https://github.com/nasa/wellclear) - DAIDALUS is a reference implementation of a detect and avoid concept intended to support the integration of Unmanned Aircraft Systems into civil airspace
+* [LibrePilot](https://www.librepilot.org/site/index.html) - A software suite to control multicopter and other RC-models
 
 ## Enhancements
 * [ROS Enhancement Proposals (REPs)](http://www.ros.org/reps/rep-0000.html) - All public REPs for ROS since 2010
+
+## Robot Examples
+* [Astrobee](https://software.nasa.gov/software/ARC-17994-1) - A free-flying robot that is designed to operate as a payload inside the International Space Station (ISS), contains embedded (on-board) software and simulator
 
 # ROS2
 
@@ -58,11 +68,14 @@ List of links I've found useful while exploring robotics and ROS
 
 ## Communications
 * [ZeroMQ/ROS](https://design.ros2.org/articles/ros_with_zeromq.html) - Design article on an attempt to integrate ZeroMQ into ROS 2.0
+* [Software Bus Network - Core Flight System](https://software.nasa.gov/software/GSC-16917-1) - NASA Core Flight System plugin to provide a publish/subscribe mechanism for peer-to-peer communication
 
 # Simulation
 
 ## Simulation Engines
 * [Gazebo](http://gazebosim.org/) - Robotics simulation environment for ROS
+* [Mission Simulation Toolkit](https://software.nasa.gov/software/ARC-14932-1) - A simulation framework to support research in autonomy for remote exploration
+* [RoboDK](https://robodk.com/) - Offline simulation environment for industrial robotic arms
 
 ## Physics Engines
 * [MuJoCo](http://www.mujoco.org/) - Multi-Joint dynamics with Contact, commercial license physics engine, built specifically to facilitate research and development in robotics.
@@ -78,22 +91,39 @@ List of links I've found useful while exploring robotics and ROS
   * [Power Management](https://www.st.com/en/power-management.html)
   * [Motor Drivers](https://www.st.com/en/motor-drivers.html)
   * [Microcontrollers](https://www.st.com/en/microcontrollers.html)
+* [C2000 Piccolo 32-bit Microcontrollers - TI](http://www.ti.com/microcontrollers/c2000-real-time-control-mcus/overview.html) - Real-time 32-bit microcontrollers from Texas Instruments
 
 # General Robotics Topics
 
-## Libraries
+## Middleware
+* [Robot Application Programming Interface Delegate - RAPID](https://software.nasa.gov/software/ARC-16368-1A) - RAPID is a software reference implementation framework for remote operations, which promotes interoperability between robot software modules
+* [MOOS](https://sites.google.com/site/moossoftware/) - Light, Fast, Cross Platform Middleware for Robots
+* [RoboComp](https://robocomp.github.io/web/) - Open-source Robotics framework providing the tools to create and modify software components that communicate through public interfaces
+* [OpenJAUS](http://openjaus.com/) - OpenJAUS is the leading source for JAUS-compliant middleware for unmanned systems
+* [JAUS Toolset](http://jaustoolset.org/) - Open-source implementation of the Joint Architecture for Unmanned Systems (JAUS)
+* [EEROS](http://eeros.org/wordpress/) - Easy, Elegant, Reliable, Open and Safe Real-Time Robotics Software Framework
+
+## Robotics Software
 * [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) - C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms
-* [Orocos BFL](http://www.orocos.org/bfl) - Bayesian Filtering Libaray from Orocos
+* [Orocos BFL](http://www.orocos.org/bfl) - Bayesian Filtering Library from Orocos
+* [PolyCARP](https://software.nasa.gov/software/LAR-18798-1) - A package of algorithms, including both their formal models and software implementations, for computing containment, collision, resolution, and recovery information for polygons
+
+## Computer Vision
+* [OpenCV](https://opencv.org/) - Open Source Computer Vision Library
+* [NASA Vision Workbench](https://github.com/nasa/visionworkbench) - The NASA Vision Workbench is a general purpose image processing and computer vision library
+* [NASA Ames Stero Pipeline](https://github.com/nasa/StereoPipeline) - The NASA Ames Stereo Pipeline is a suite of automated geodesy & stereogrammetry tools designed for processing planetary imagery captured from orbiting and landed robotic explorers on other planets
 
 ## Kinematics
 * [Orocos KDL](http://www.orocos.org/kdl) - Kinematics and dynamics library from Orocos
+* [The Robotics Library](https://www.roboticslibrary.org/) - A self-contained C++ library for robot kinematics, motion planning and control. It covers mathematics, kinematics and dynamics, hardware abstraction, motion planning, collision detection, and visualization
 
 ## SLAM
 * [Simultaneous Location and Mapping (SLAM)](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) - Wikipedia entry on SLAM, an important problem in robotics
+* [Mobile Robot Programming Toolkit](https://www.mrpt.org/) - Portable and well-tested applications and libraries covering data structures and algorithms employed in common robotics research areas
 
 ## Control Systems
 * [PID Controller](https://en.wikipedia.org/wiki/PID_controller) - Wikipedia entry on Proportional-Integral-Derivative controller, a control loop feedback mechanism used in mechanical and electrical control systems
-
+* [Livingstone 2](https://software.nasa.gov/software/ARC-14725-1) - System for Automated Diagnosis and Discrete Control of Complex Systems
 
 # Real Time Systems
 
