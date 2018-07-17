@@ -17,6 +17,7 @@ List of links I've found useful while exploring robotics and ROS
   - [Physics Engines](#physics-engines)
 - [Hardware](#hardware)
   - [Controllers](#controllers)
+  - [Embedded Systems Software](#embedded-systems)
 - [General Robotics Topics](#general-robotics-topics)
   - [Robotics Software](#robotics-software)
   - [Middleware](#middleware)
@@ -26,6 +27,7 @@ List of links I've found useful while exploring robotics and ROS
   - [Control Systems](#control-systems)
 - [Real Time Systems](#real-time-systems)
   - [Communications and Networking](#communications-and-networking)
+  - [Operating Systems](#operating-systems)
 - [Reinforcement Learning](#reinforcement-learning)
 - [Stores](#stores)
 - [Maker](#maker)
@@ -93,6 +95,10 @@ List of links I've found useful while exploring robotics and ROS
   * [Microcontrollers](https://www.st.com/en/microcontrollers.html)
 * [C2000 Piccolo 32-bit Microcontrollers - TI](http://www.ti.com/microcontrollers/c2000-real-time-control-mcus/overview.html) - Real-time 32-bit microcontrollers from Texas Instruments
 
+## Embedded Systems Software
+* [Yocto](https://www.yoctoproject.org/) - Open source collaboration project that helps developers create custom Linux-based systems for embedded products, regardless of the hardware architecture
+* [OpenEmbedded](https://www.openembedded.org/wiki/Main_Page) - Build framework for embedded Linux.
+
 # General Robotics Topics
 
 ## Middleware
@@ -138,6 +144,19 @@ List of links I've found useful while exploring robotics and ROS
 * [Orocos/RTT](http://www.orocos.org/rtt) - Real Time Toolkit, a library for RTOS
 * [Pragmatic General Multicast (PGM)](https://en.wikipedia.org/wiki/Pragmatic_General_Multicast)
 * [OPC Unified Architecture](https://en.wikipedia.org/wiki/OPC_Unified_Architecture) - Wikipedia entry on machine-to-machine communication protocol for industrial automation
+* [IEC 61158 / Fieldbus](https://en.wikipedia.org/wiki/Fieldbus) - Wikipedia entry on Fieldbus, a family of industrial computer network protocols used for real-time distributed control, standardized as IEC 61158.
+* [EtherCAT](https://www.ethercat.org/en/) - A real-time Industrial Ethernet technology originally developed by Beckhoff Automation. The EtherCAT protocol which is disclosed in the IEC standard IEC61158 is suitable for hard and soft real-time requirements in automation technology, in test and measurement and many other applications.
+  * [Open EtherCAT Society](https://openethercatsociety.github.io/)
+  * [EtherCAT Introduction](https://www.ethercat.org/pdf/english/EtherCAT_Introduction_0905.pdf)
+* [Modbus](https://en.wikipedia.org/wiki/Modbus) - A serial communications protocol which is a commonly available means of connecting industrial electronic devices.
+
+## Operating Systems
+* [QNX Neutrino](https://community.qnx.com/sf/sfmain/do/viewProject/projects.core_os) - QNX Neutrino is a realtime microkernel operating system. It's scalable, embeddable, networked, SMP-capable, memory protected, and has a POSIX interface. The OS supports several processor families, including x86, ARM, XScale, PPC, MIPS, and SH-4.
+  * [Beaglebone Support](http://community.qnx.com/sf/wiki/do/viewPage/projects.bsp/wiki/TiAm335Beaglebone) - Board Support Package for AM335x Beaglebone
+* [Amazon FreeRTOS](https://aws.amazon.com/freertos/) - Amazon FreeRTOS is an operating system for microcontrollers that makes small, low-power edge devices easy to program, deploy, secure, connect, and manage.
+* [Linux PREEMPT_RT](https://wiki.linuxfoundation.org/realtime/start) - Patch to the linux kernel to add preemptive, realtime scheduling.
+
+
 
 # Reinforcement Learning
 * [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment) - Atari 2600 game emulator, together with a framework for developing AI agents
@@ -152,7 +171,7 @@ List of links I've found useful while exploring robotics and ROS
 
 # Maker
 
-## Electonics
+## Electronics
 * [Maker Pro](https://maker.pro/) - Lots of articles on building things using Arduino and Raspberry Pi
 * [All About Circuits](https://www.allaboutcircuits.com/) - All about electrical circuits
 * [Fundamentals of Electronics Tutorial](http://developer.wildernesslabs.co/Hardware/Tutorials/Electronics/) - Practical, hands-on tutorial on electronic circuits that focuses on modern circuit development for connected things
