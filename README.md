@@ -28,6 +28,7 @@ List of links I've found useful while exploring robotics and ROS
 - [Real Time Systems](#real-time-systems)
   - [Communications and Networking](#communications-and-networking)
   - [Operating Systems](#operating-systems)
+  - [Libraries](#realtime-libraries)
 - [Reinforcement Learning](#reinforcement-learning)
 - [Stores](#stores)
 - [Maker](#maker)
@@ -78,6 +79,11 @@ List of links I've found useful while exploring robotics and ROS
 * [Gazebo](http://gazebosim.org/) - Robotics simulation environment for ROS
 * [Mission Simulation Toolkit](https://software.nasa.gov/software/ARC-14932-1) - A simulation framework to support research in autonomy for remote exploration
 * [RoboDK](https://robodk.com/) - Offline simulation environment for industrial robotic arms
+* [Modular OpenRobots Simulation Engine (MORSE)](https://github.com/morse-simulator/morse) - An academic robotic simulator, based on the Blender Game Engine and the Bullet Physics engine.
+* [OpenRAVE](http://openrave.org) - An environment for testing, developing, and deploying motion planning algorithms in real-world robotics applications. The main focus is on simulation and analysis of kinematic and geometric information related to motion planning.
+* [Webots](https://www.cyberbotics.com/) - A robot simulator that provides a complete development environment to model, program and simulate robots. 
+* [Virtual Robot Experimentation Platform (V-REP)](http://www.coppeliarobotics.com/index.html) - Robot simulator with integrated development environment, based on a distributed control architecture: each object/model can be individually controlled via an embedded script, a plugin, a ROS or BlueZero node, a remote API client, or a custom solution.
+* [Open AI Gym - ROS/Gazebo](https://github.com/erlerobot/gym-gazebo/) - A toolkit for developing and comparing reinforcement learning algorithms using ROS and Gazebo.
 
 ## Physics Engines
 * [MuJoCo](http://www.mujoco.org/) - Multi-Joint dynamics with Contact, commercial license physics engine, built specifically to facilitate research and development in robotics.
@@ -113,11 +119,14 @@ List of links I've found useful while exploring robotics and ROS
 * [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) - C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms
 * [Orocos BFL](http://www.orocos.org/bfl) - Bayesian Filtering Library from Orocos
 * [PolyCARP](https://software.nasa.gov/software/LAR-18798-1) - A package of algorithms, including both their formal models and software implementations, for computing containment, collision, resolution, and recovery information for polygons
+* [robotpkg](http://robotpkg.openrobots.org/) - A compilation framework and packaging system for installing robotics software developed by the robotic community.
+* [SuiteSparse](http://faculty.cse.tamu.edu/davis/suitesparse.html) - Collection of software libraries implementing various algorithms for operations on sparse matrices.
 
 ## Computer Vision
 * [OpenCV](https://opencv.org/) - Open Source Computer Vision Library
 * [NASA Vision Workbench](https://github.com/nasa/visionworkbench) - The NASA Vision Workbench is a general purpose image processing and computer vision library
-* [NASA Ames Stero Pipeline](https://github.com/nasa/StereoPipeline) - The NASA Ames Stereo Pipeline is a suite of automated geodesy & stereogrammetry tools designed for processing planetary imagery captured from orbiting and landed robotic explorers on other planets
+* [NASA Ames Stereo Pipeline](https://github.com/nasa/StereoPipeline) - The NASA Ames Stereo Pipeline is a suite of automated geodesy & stereogrammetry tools designed for processing planetary imagery captured from orbiting and landed robotic explorers on other planets
+* [Oxford Active Vision Library](http://www.robots.ox.ac.uk/OxVisionLib) - A loose collection of computer vision library and applications provided by the Active Vision Lab and the Torr Vision Group from the Department of Engineering Science, University of Oxford.
 
 ## Kinematics
 * [Orocos KDL](http://www.orocos.org/kdl) - Kinematics and dynamics library from Orocos
@@ -126,6 +135,7 @@ List of links I've found useful while exploring robotics and ROS
 ## SLAM
 * [Simultaneous Location and Mapping (SLAM)](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping) - Wikipedia entry on SLAM, an important problem in robotics
 * [Mobile Robot Programming Toolkit](https://www.mrpt.org/) - Portable and well-tested applications and libraries covering data structures and algorithms employed in common robotics research areas
+* [OpenSLAM.org](https://github.com/OpenSLAM-org) - Many different SLAM algorithms in one place, some in C++ and others in MATLAB, mostly under GPL license
 
 ## Control Systems
 * [PID Controller](https://en.wikipedia.org/wiki/PID_controller) - Wikipedia entry on Proportional-Integral-Derivative controller, a control loop feedback mechanism used in mechanical and electrical control systems
@@ -156,12 +166,15 @@ List of links I've found useful while exploring robotics and ROS
 * [Amazon FreeRTOS](https://aws.amazon.com/freertos/) - Amazon FreeRTOS is an operating system for microcontrollers that makes small, low-power edge devices easy to program, deploy, secure, connect, and manage.
 * [Linux PREEMPT_RT](https://wiki.linuxfoundation.org/realtime/start) - Patch to the linux kernel to add preemptive, realtime scheduling.
 
+## Realtime Libraries
+* [GenoM](https://git.openrobots.org/projects/genom3) - A tool to design real-time software architectures. It encapsulates software functions inside independent components.
 
 
 # Reinforcement Learning
 * [Arcade Learning Environment](https://github.com/mgbellemare/Arcade-Learning-Environment) - Atari 2600 game emulator, together with a framework for developing AI agents
 * [OpenAI Gym](https://github.com/openai/gym) - Toolkit for developing and comparing reinforcement learning algorithms
   * [Ingredients for Robotics Research](https://blog.openai.com/ingredients-for-robotics-research/) - Gym environments specific to robotics
+  * [Roboschool](https://blog.openai.com/roboschool/) - Open-source software for robot simulation integrated with OpenAI Gym
 
 # Stores
 * [Karlsson Robotics](https://www.kr4.us/)
